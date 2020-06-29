@@ -17,4 +17,10 @@ Because with this library you can guarantee data immutability
   ```javascript
   loop(number, callback())
   ```
- 
+  - #### Example
+  ```javascript
+  let number = 10
+  number.loop(20, ()=>{
+   console.log(number)
+  })
+  ```
