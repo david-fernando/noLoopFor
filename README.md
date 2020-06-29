@@ -24,3 +24,15 @@ Because with this library you can guarantee data immutability
    console.log(number)
   })
   ```
+### loopStep
+   - #### Syntax
+  ```javascript
+  loopStep(number, numberStep, callback())
+  ```
+  - #### Example
+  ```javascript
+  let number = 10
+  number.loopStep(100, 10, ()=>{
+   console.log(number)
+  })
+  ```
