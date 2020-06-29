@@ -5,7 +5,7 @@
 ### About
 Library that allows you to loop without use the for
 
-### Why
+### Why use it
 Because with this library you can guarantee data immutability
 
 ### How to use
