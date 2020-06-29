@@ -13,7 +13,8 @@ Because with this library you can guarantee data immutability
 <script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
 ```
 ### loop
-   - Syntax
+   - #### Syntax
   ```javascript
   loop(number, callback())
   ```
+ 
