@@ -9,6 +9,7 @@ Library that allows you to loop without use the for
 Because with this library you can guarantee data immutability
 
 ### How to use
+Add the line below in head of your html
 ```html
 <script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
 ```
