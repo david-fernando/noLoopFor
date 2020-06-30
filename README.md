@@ -1,7 +1,3 @@
-<style>
-#foo {color: red}
-</style>
-
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="icon/icon.png" alt="No loop for"></a>
@@ -15,6 +11,12 @@
 </ul>
 
 ---
+
+<style>
+li {
+  list-style: none
+  }
+</style>
 
 ### About
 Library that allows you to loop without use the for
