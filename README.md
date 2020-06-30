@@ -69,3 +69,6 @@ Add the line below in head of your html
    console.log(items)
   })
   ```
+
+### Licence
+ - Mit
