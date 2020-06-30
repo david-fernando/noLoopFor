@@ -1,8 +1,5 @@
 <style>
-  ul li{
-      list-style:none;
-      display: inline-block;
-  }
+#foo {color: red}
 </style>
 
 <p align="center">
