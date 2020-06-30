@@ -1,0 +1,47 @@
+{
+  "name": "noLoopFor",
+  "version": "1.0.0",
+  "description": "Pacote para fazer loops sem o uso de for",
+  "main": "index.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/david-fernando/noLoopFor.git",
+    "directory": "packages/name"
+  },
+  "bugs": {
+    "url": "https://github.com/david-fernando/noLoopFor/issues"
+  },
+  "homepage": "https://github.com/david-fernando/noLoopFor",
+  "keywords": [
+    "for",
+    "js",
+    "JavaScript",
+    "Javascript",
+    "No for loop",
+    "NoForLoop",
+    "NoLoopFor",
+    "No loop for", 
+    "Noloopfor",
+    "functional",
+    "functional programming",
+    "programming functional",
+    "programação funcional",
+    "Without for",
+    "Without for loop",
+    "Without loop for",
+    "data immutability",
+    "immutability",
+    "imutabilidade",
+    "imutabilidade dos dados",
+    "functional JavaScript",
+    "functional JS",
+    "JavaScript functional",
+    "JS functional"
+  ],
+  "author": "david-fernando",
+  "license": "ISC"
+}
