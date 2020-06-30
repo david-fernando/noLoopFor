@@ -3,7 +3,7 @@
  <img width=200px height=200px src="icon/icon.png" alt="No loop for"></a>
 </p>
 
-<h3 align="center">No loop for</h3>
+<h1 align="center">No loop for</h1>
 
 ---
 
