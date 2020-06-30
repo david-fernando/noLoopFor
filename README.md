@@ -70,5 +70,5 @@ Add the line below in head of your html
   })
   ```
 
-### Licence
- - Mit
+### Licence:
+MIT
