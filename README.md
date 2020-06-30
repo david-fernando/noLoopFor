@@ -16,7 +16,7 @@ Add the line below in head of your html
 ### loop
    - #### Syntax
   ```javascript
-  loop(number, callback())
+  loop(numberLoop, callback())
   ```
   - #### Example
   ```javascript
@@ -28,12 +28,39 @@ Add the line below in head of your html
 ### loopStep
    - #### Syntax
   ```javascript
-  loopStep(number, numberStep, callback())
+  loopStep(numberLoop, numberStep, callback())
   ```
   - #### Example
   ```javascript
   let number = 10
   number.loopStep(100, 10, (items)=>{
+   console.log(items)
+  })
+  ```
+  
+
+### decrementLoop
+   - #### Syntax
+  ```javascript
+  loopLoop(numberTarget, callback())
+  ```
+  - #### Example
+  ```javascript
+  let number = 10
+  number.loopStep(1, (items)=>{
+   console.log(items)
+  })
+  ```
+  
+### decrementStep
+   - #### Syntax
+  ```javascript
+  loopStep(numberTarget, numberStep, callback())
+  ```
+  - #### Example
+  ```javascript
+  let number = 20
+  number.loopStep(10, 1, (items)=>{
    console.log(items)
   })
   ```
