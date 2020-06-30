@@ -6,7 +6,7 @@
 <h1 align="center">No loop for</h1>
 
 <ul>
-  <li><a href="LEAIME.md">Portuguese</li>
+  <li><a href="LEIAME.md">Portuguese</li>
   <li><a href="#">English</li>
 </ul>
 
