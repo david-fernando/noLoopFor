@@ -3,7 +3,7 @@
       list-style:none;
       display: inline-block;
   }
-<style>
+</style>
 
 <p align="center">
   <a href="" rel="noopener">
