@@ -5,7 +5,7 @@
 
 <h1 align="center">No loop for</h1>
 
-<ul style="display:inline-block">
+<ul style="display:inline; list-style-type:none">
   <li style="list-style-type:none"><a href="LEIAME.md">Portuguese</li>
   <li style="list-style-type:none"><a href="#">English</li>
 </ul>
