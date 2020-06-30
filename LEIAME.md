@@ -7,6 +7,12 @@
 
 ---
 
+### Idiomas
+<ul style="display:inline; list-style-type:none">
+  <li style="list-style-type:none"><a href="#">Português</li>
+  <li style="list-style-type:none"><a href="README.md">Inglês</li>
+</ul>
+
 ### Sobre
 Esta é uma biblioteca JavaScript, que permite fazer inumeros loops sem o uso do for
 
