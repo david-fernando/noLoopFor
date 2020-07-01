@@ -20,7 +20,7 @@ Library that allows you to loop without use the for
 Because with this library you can guarantee data immutability
 
 ### Instalation
-To install on the node, run run the command below on the terminal
+To install on the node, run the command below on the terminal
 ```
 npm install @david-fernando/noloopfor@1.0.1
 ```
