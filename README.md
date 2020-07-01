@@ -20,10 +20,21 @@ Library that allows you to loop without use the for
 Because with this library you can guarantee data immutability
 
 ### Instalation
-Add the line below in head tag of your html
+To install on the node, just execute the command below on the terminal
+```
+npm install noloopfor
+```
+Or if you're off the nodejs, just add the line below in head of your html
 ```html
 <script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
 ```
+### How to use
+If you are on nodejs, just import the library
+```
+const noloopfor = require('noloopfor')
+```
+If you aren't on the node, you don't need make any more. Just use the the available methods!
+
 ### loop
    - #### Syntax
   ```javascript
