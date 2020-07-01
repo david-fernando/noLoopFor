@@ -19,11 +19,21 @@ Esta é uma biblioteca JavaScript, que permite fazer inumeros loops sem o uso do
 ### Porque usar
 Por esta esta biblioteca garante a imutabilidade dos dados
 
-### Como usar
-Adicione a linha abaixo na tag head do seu html, e pronto! Você já pode usar todas as funções disponíveis.
+### Instalação
+Para instalar no node, basta executar o comando abaixo
+```
+npm install noloopfor
+```
+Se não usando NodeJS, apenas adicione a linha abaixo na tag head do seu html.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
 ```
+### Como usar
+Para usar no NodeJS, basta importar a biblioteca
+```
+const noloopfor = require('noloopfor')
+```
+Se não estiver usando Node, você não precisa fazer mais nada. Basta usar as funções disponíveis!
 ### loop
    - #### Sintaxe
   ```javascript
