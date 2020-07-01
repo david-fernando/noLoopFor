@@ -36,11 +36,11 @@ const noloopfor = require('noloopfor')
 If you aren't on the node, you don't need make any more. Just use the the available methods!
 
 ### loop
-   - #### Syntax
+   - <h4>Syntax</h4>
   ```javascript
   loop(numberLoop, callback())
   ```
-  - #### Example
+  - <h4>Example</h4>
   ```javascript
   let number = 10
   number.loop(20, (items)=>{
@@ -48,11 +48,11 @@ If you aren't on the node, you don't need make any more. Just use the the availa
   })
   ```
 ### loopStep
-   - #### Syntax
+   - <h4>Syntax</h4>
   ```javascript
   loopStep(numberLoop, numberStep, callback())
   ```
-  - #### Example
+  - <h4>Example</h4>
   ```javascript
   let number = 10
   number.loopStep(100, 10, (items)=>{
@@ -62,11 +62,11 @@ If you aren't on the node, you don't need make any more. Just use the the availa
   
 
 ### decrementLoop
-   - #### Syntax
+   - <h4>Syntax</h4>
   ```javascript
   loopLoop(numberTarget, callback())
   ```
-  - #### Example
+  - <h4>Example</h4>
   ```javascript
   let number = 10
   number.loopStep(1, (items)=>{
@@ -75,11 +75,11 @@ If you aren't on the node, you don't need make any more. Just use the the availa
   ```
   
 ### decrementStep
-   - #### Syntax
+   - <h4>Syntax</h4>
   ```javascript
   loopStep(numberTarget, numberStep, callback())
   ```
-  - #### Example
+  - <h4>Example</h4>
   ```javascript
   let number = 20
   number.loopStep(10, 1, (items)=>{
