@@ -38,7 +38,7 @@ If you aren't on the node, you don't need make any more. Just use the the availa
 ### loop
    - <h4>Syntax</h4>
   ```javascript
-  loop(numberLoop, callback())
+  loop(numberOfIterations, callback())
   ```
   - <h4>Example</h4>
   ```javascript
@@ -50,7 +50,7 @@ If you aren't on the node, you don't need make any more. Just use the the availa
 ### loopStep
    - <h4>Syntax</h4>
   ```javascript
-  loopStep(numberLoop, numberStep, callback())
+  loopStep(numberOfIterations, numberStep, callback())
   ```
   - <h4>Example</h4>
   ```javascript
@@ -64,12 +64,12 @@ If you aren't on the node, you don't need make any more. Just use the the availa
 ### decrementLoop
    - <h4>Syntax</h4>
   ```javascript
-  loopLoop(numberTarget, callback())
+  decrementLoop(numberTarget, callback())
   ```
   - <h4>Example</h4>
   ```javascript
   let number = 10
-  number.loopStep(1, (items)=>{
+  number.decrementLoop(1, (items)=>{
    console.log(items)
   })
   ```
@@ -77,12 +77,12 @@ If you aren't on the node, you don't need make any more. Just use the the availa
 ### decrementStep
    - <h4>Syntax</h4>
   ```javascript
-  loopStep(numberTarget, numberStep, callback())
+  decrementStep(numberTarget, numberStep, callback())
   ```
   - <h4>Example</h4>
   ```javascript
   let number = 20
-  number.loopStep(10, 1, (items)=>{
+  number.decrementStep(10, 1, (items)=>{
    console.log(items)
   })
   ```
