@@ -19,25 +19,15 @@ Esta é uma biblioteca JavaScript, que permite fazer inumeros loops sem o uso do
 ### Porque usar
 Por esta esta biblioteca garante a imutabilidade dos dados
 
-### Instalação
-Para instalar no node, basta executar o comando abaixo
-```
-npm install noloopfor
-```
-Se não usando NodeJS, apenas adicione a linha abaixo na tag head do seu html.
+### Como usar
+Adicione a linha abaixo na tag head do seu html, e pronto! Você já pode usar todas as funções disponíveis.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
 ```
-### Como usar
-Para usar no NodeJS, basta importar a biblioteca
-```
-const noloopfor = require('noloopfor')
-```
-Se não estiver usando Node, você não precisa fazer mais nada. Basta usar as funções disponíveis!
 ### loop
    - #### Sintaxe
   ```javascript
-  loop(numberLoop, callback())
+  loop(numberOfIterations, callback())
   ```
   - #### Exemplo
   ```javascript
@@ -49,7 +39,7 @@ Se não estiver usando Node, você não precisa fazer mais nada. Basta usar as f
 ### loopStep
    - #### Sintaxe
   ```javascript
-  loopStep(numberLoop, numberStep, callback())
+  loopStep(numberOfIterations, numberStep, callback())
   ```
   - #### Exemplo
   ```javascript
@@ -63,12 +53,12 @@ Se não estiver usando Node, você não precisa fazer mais nada. Basta usar as f
 ### decrementLoop
    - #### Sintaxe
   ```javascript
-  loopLoop(numberTarget, callback())
+  decrementLoop(numberTarget, callback())
   ```
   - #### Exemplo
   ```javascript
   let number = 10
-  number.loopStep(1, (items)=>{
+  number.decrementLoop(1, (items)=>{
    console.log(items)
   })
   ```
@@ -76,12 +66,12 @@ Se não estiver usando Node, você não precisa fazer mais nada. Basta usar as f
 ### decrementStep
    - #### Sintaxe
   ```javascript
-  loopStep(numberTarget, numberStep, callback())
+  decrementStep(numberTarget, numberStep, callback())
   ```
   - #### Exemplo
   ```javascript
   let number = 20
-  number.loopStep(10, 1, (items)=>{
+  number.decrementStep(10, 1, (items)=>{
    console.log(items)
   })
   ```
