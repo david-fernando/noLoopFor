@@ -43,8 +43,8 @@ If you aren't on the node, you don't need make any more. Just use the the availa
   - <h4>Example</h4>
   ```javascript
   let number = 10
-  number.loop(20, (items)=>{
-   console.log(items)
+  number.loop(20, (iterations)=>{
+   console.log(iterations)
   })
   ```
 ### loopStep
@@ -55,8 +55,8 @@ If you aren't on the node, you don't need make any more. Just use the the availa
   - <h4>Example</h4>
   ```javascript
   let number = 10
-  number.loopStep(100, 10, (items)=>{
-   console.log(items)
+  number.loopStep(100, 10, (iterations)=>{
+   console.log(iterations)
   })
   ```
   
@@ -69,8 +69,8 @@ If you aren't on the node, you don't need make any more. Just use the the availa
   - <h4>Example</h4>
   ```javascript
   let number = 10
-  number.decrementLoop(1, (items)=>{
-   console.log(items)
+  number.decrementLoop(1, (iterations)=>{
+   console.log(iterations)
   })
   ```
   
@@ -82,8 +82,8 @@ If you aren't on the node, you don't need make any more. Just use the the availa
   - <h4>Example</h4>
   ```javascript
   let number = 20
-  number.decrementStep(10, 1, (items)=>{
-   console.log(items)
+  number.decrementStep(10, 1, (iterations)=>{
+   console.log(iterations)
   })
   ```
 
