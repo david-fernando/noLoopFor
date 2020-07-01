@@ -24,7 +24,7 @@ To install on the node, run the command below on the terminal
 ```
 npm install @david-fernando/noloopfor@1.0.1
 ```
-Or add the line below in head of your html
+Or add the line below in head tag of your html
 ```html
 <script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
 ```
