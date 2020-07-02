@@ -28,5 +28,4 @@ const loop = {
         }
     }
 }
-
 module.exports = loop
