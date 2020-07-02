@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/david-fernando/noLoopFor/issues"
   },
+  "always", { "omitLastInOneLineBlock": true } ,
   "homepage": "https://github.com/david-fernando/noLoopFor",
   "keywords": [
     "for",
