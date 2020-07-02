@@ -9,6 +9,8 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2d1f61ae61dc4d67939faacc892a81f3)](https://app.codacy.com/manual/david-fernando/noLoopFor?utm_source=github.com&utm_medium=referral&utm_content=david-fernando/noLoopFor&utm_campaign=Badge_Grade_Dashboard)
 
+![GitHub top language](https://img.shields.io/github/languages/top/david-fernando/noLoopFor)
+
 </div>
 
 ---
