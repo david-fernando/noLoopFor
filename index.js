@@ -24,9 +24,8 @@ const loop = {
         let number = this.valueOf()
         for(let index = number; index > target; index--){
             callback(number)
-            number -= step;
+            number -= step
         }
     }
 }
-
 module.exports = loop
