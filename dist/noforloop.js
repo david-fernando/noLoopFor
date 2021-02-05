@@ -1,31 +1,38 @@
-Number.prototype.loop = function(target, callback){
-    let number = this.valueOf()
-    for(let index = 0; index < 0; index++){
-        callback(number)
+function loop(value, target, callback){
+    let number = value;
+    for(let index = 0; index < target; index++){
+        callback(number);
         number++
     }
 }
 
-Number.prototype.loopStep = function(target, step, callback){
-    let number = this.valueOf()
+function loopStep(value, target, step, callback){
+    let number = value;
     for(let index = 0; index < target; index++){
-        callback(number)
+        callback(number);
         number += step
     }
 }
 
-Number.prototype.decrementLoop = function(target, callback){
-    let number = this.valueOf()
+function decrementLoop(value, target, callback){
+    let number = value;
     for(let index = number; index > target; index--){
         number--
-        callback(number)
+        callback(number);
     }
 }
 
-Number.prototype.decrementStep = function(target, step, callback){
-    let number = this.valueOf()
+function decrementStep(value, target, step, callback){
+    let number = value;
     for(let index = number; index > target; index--){
-        callback(number)
-        number -= step
+        callback(number);
+        number -= step;
     }
+}
+
+export {
+    loop,
+    loopStep,
+    decrementLoop,
+    decrementStep
 }

@@ -1,9 +1,8 @@
 {
-  "name": "noLoopFor",
-  "version": "1.0.0",
+  "name": "noloopfor",
+  "version": "1.0.10",
   "description": "Pacote para fazer loops sem o uso de for",
   "main": "index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +23,7 @@
     "No for loop",
     "NoForLoop",
     "NoLoopFor",
-    "No loop for", 
+    "No loop for",
     "Noloopfor",
     "functional",
     "functional programming",
@@ -42,6 +41,10 @@
     "JavaScript functional",
     "JS functional"
   ],
-  "author": "david-fernando",
-  "license": "ISC"
+  "author": "davidfernando",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
 }

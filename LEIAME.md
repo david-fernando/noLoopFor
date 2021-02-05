@@ -27,25 +27,25 @@ Adicione a linha abaixo na tag head do seu html, e pronto! Você já pode usar t
 ### loop
    - #### Sintaxe
   ```javascript
-  loop(numberLoop, callback())
+  loop(numberOfIterations, callback())
   ```
   - #### Exemplo
   ```javascript
   let number = 10
-  number.loop(20, (items)=>{
-   console.log(items)
+  number.loop(20, (iterations)=>{
+   console.log(iterations)
   })
   ```
 ### loopStep
    - #### Sintaxe
   ```javascript
-  loopStep(numberLoop, numberStep, callback())
+  loopStep(numberOfIterations, numberStep, callback())
   ```
   - #### Exemplo
   ```javascript
   let number = 10
-  number.loopStep(100, 10, (items)=>{
-   console.log(items)
+  number.loopStep(100, 10, (iterations)=>{
+   console.log(iterations)
   })
   ```
   
@@ -53,26 +53,26 @@ Adicione a linha abaixo na tag head do seu html, e pronto! Você já pode usar t
 ### decrementLoop
    - #### Sintaxe
   ```javascript
-  loopLoop(numberTarget, callback())
+  decrementLoop(numberTarget, callback())
   ```
   - #### Exemplo
   ```javascript
   let number = 10
-  number.loopStep(1, (items)=>{
-   console.log(items)
+  number.decrementLoop(1, (iterations)=>{
+   console.log(iterations)
   })
   ```
   
 ### decrementStep
    - #### Sintaxe
   ```javascript
-  loopStep(numberTarget, numberStep, callback())
+  decrementStep(numberTarget, numberStep, callback())
   ```
   - #### Exemplo
   ```javascript
   let number = 20
-  number.loopStep(10, 1, (items)=>{
-   console.log(items)
+  number.decrementStep(10, 1, (iterations)=>{
+   console.log(iterations)
   })
   ```
 
