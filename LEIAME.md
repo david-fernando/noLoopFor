@@ -16,65 +16,90 @@
 ### Sobre
 Esta é uma biblioteca JavaScript, que permite fazer inumeros loops sem o uso do for
 
-### Porque usar
-Por esta esta biblioteca garante a imutabilidade dos dados
+### Começar a usar
 
-### Como usar
-Adicione a linha abaixo na tag head do seu html, e pronto! Você já pode usar todas as funções disponíveis.
-```html
-<script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
-```
-### loop
-   - #### Sintaxe
-  ```javascript
-  loop(numberOfIterations, callback())
+  - <h4>No Node JS</h4>
+  Para instalar no Node, basta executar o comando abaixo no terminal
   ```
-  - #### Exemplo
+  npm install noloopfor
+  ```
+  Para importar a função desejada use desestruturação de objetos, por exemplo, o código abaixo está importando a função loop
   ```javascript
-  let number = 10
-  number.loop(20, (iterations)=>{
+  const { loop } = require('noloopfor')
+  ```
+  Se estiver usando React JS ou alguma outra biblioteca JS que permite usar a sintaxe ESM, você pode usá-la com desestruturação de objetos, como no exemplo abaixo
+  ```javascript
+  import { loop } from 'noloopfor'
+  ```
+   - <h4>No navegador</h4>
+  Se você está fora do Node JS, não precisa instalar nada, apenas importe a função desejada usando a sintaxe ESM, por exemplo, o código abaixo está importando a funtion loop, e em seguida está implementando a mesma.
+  
+  ```html
+  <script type="module">
+  import { loop } from 'https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js'
+
+  const number = 10
+
+  loop(number, 20, (iterations)=>{
+   console.log(iterations)
+  })
+
+  </script>
+  ```
+
+### Referência
+
+### loop
+   - <h4>Sintaxe</h4>
+  ```javascript
+  loop(number, numberOfIterations, callback)
+  ```
+  - <h4>Example</h4>
+  ```javascript
+  const number = 10
+  loop(number, 20, (iterations)=>{
    console.log(iterations)
   })
   ```
 ### loopStep
-   - #### Sintaxe
+   - <h4>Sintaxe</h4>
   ```javascript
-  loopStep(numberOfIterations, numberStep, callback())
+  loopStep(number, numberOfIterations, numberStep, callback)
   ```
-  - #### Exemplo
+  - <h4>Exemplo</h4>
   ```javascript
-  let number = 10
-  number.loopStep(100, 10, (iterations)=>{
+  const number = 10
+  loopStep(number, 100, 10, (iterations)=>{
    console.log(iterations)
   })
   ```
   
 
 ### decrementLoop
-   - #### Sintaxe
+   - <h4>Sintaxe</h4>
   ```javascript
-  decrementLoop(numberTarget, callback())
+  decrementLoop(number, numberTarget, callback)
   ```
-  - #### Exemplo
+  - <h4>Exemplo</h4>
   ```javascript
-  let number = 10
-  number.decrementLoop(1, (iterations)=>{
+  const number = 10
+  decrementLoop(number, 1, (iterations)=>{
    console.log(iterations)
   })
   ```
   
 ### decrementStep
-   - #### Sintaxe
+   - <h4>Sintaxe</h4>
   ```javascript
-  decrementStep(numberTarget, numberStep, callback())
+  decrementStep(number, numberTarget, numberStep, callback)
   ```
-  - #### Exemplo
+  - <h4>Exemplo</h4>
   ```javascript
-  let number = 20
-  number.decrementStep(10, 1, (iterations)=>{
+  const number = 20
+  decrementStep(number, 10, 1, (iterations)=>{
    console.log(iterations)
   })
   ```
 
-### Licença:
+### Licence:
 MIT

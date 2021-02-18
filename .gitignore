@@ -5,6 +5,7 @@
 
 /modules
 /icon
+/test
 
 # test files
 test.js
