@@ -1,11 +1,19 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="icon/icon.png" alt="No loop for"></a>
+ <img width=200px height=200px src="https://images2.imgbox.com/23/40/erCGj2jK_o.png" alt="No loop for"></a>
 </p>
 
 <h1 align="center">No loop for</h1>
 
+<div align="center">
+  
+![GitHub top language](https://img.shields.io/github/languages/top/david-fernando/noLoopFor) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f39ced0748b84cf181d948c33dd510e2)](https://www.codacy.com/manual/david-fernando/noLoopFor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=david-fernando/noLoopFor&amp;utm_campaign=Badge_Grade) [![GitHub license](https://img.shields.io/github/license/david-fernando/noLoopFor)](https://github.com/david-fernando/noLoopFor/blob/master/LICENSE)
+
+</li>
+</div>
+
 ---
+
 
 ### Languages
 <ul style="display:inline; list-style-type:none">
@@ -14,65 +22,89 @@
 </ul>
 
 ### About
-Library that allows you to loop without use the for
+JavaScript library for making functional loops
 
-### Why use it
-Because with this library you can guarantee data immutability
+### Get Started
 
-### How to use
-Add the line below in head of your html
-```html
-<script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
-```
-### loop
-   - #### Syntax
-  ```javascript
-  loop(numberLoop, callback())
+  - <h4>On the Node JS</h4>
+  To install on the node, just execute the command below on the terminal
   ```
-  - #### Example
+  npm install noloopfor
+  ```
+  To import the the desired function use destructuring assignment, for example, the bellow code is importing the function loop.
   ```javascript
-  let number = 10
-  number.loop(20, (items)=>{
-   console.log(items)
+  const { loop } = require('noloopfor')
+  ```
+  If using React JS, or some other JS library that allows you to use the ESM syntax, you can use it with destructuring assignment, as in the example below
+  ```javascript
+  import { loop } from 'noloopfor'
+  ```
+ - <h4>On the browser</h4>
+  If you're out of Node JS you don't need to install anything, just import the desired function using ESM syntax, for example, the below code is importing the function loop, and then is implementing the same.
+  
+  ```html
+  <script type="module">
+  import { loop } from 'https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js'
+
+  const number = 10
+
+  loop(number, 20, (iterations)=>{
+   console.log(iterations)
+  })
+
+  </script>
+  ```
+### Reference
+
+### loop
+   - <h4>Syntax</h4>
+  ```javascript
+  loop(number, numberOfIterations, callback)
+  ```
+  - <h4>Example</h4>
+  ```javascript
+  const number = 10
+  loop(number, 20, (iterations)=>{
+   console.log(iterations)
   })
   ```
 ### loopStep
-   - #### Syntax
+   - <h4>Syntax</h4>
   ```javascript
-  loopStep(numberLoop, numberStep, callback())
+  loopStep(number, numberOfIterations, numberStep, callback)
   ```
-  - #### Example
+  - <h4>Example</h4>
   ```javascript
-  let number = 10
-  number.loopStep(100, 10, (items)=>{
-   console.log(items)
+  const number = 10
+  loopStep(number, 100, 10, (iterations)=>{
+   console.log(iterations)
   })
   ```
   
 
 ### decrementLoop
-   - #### Syntax
+   - <h4>Syntax</h4>
   ```javascript
-  loopLoop(numberTarget, callback())
+  decrementLoop(number, numberTarget, callback)
   ```
-  - #### Example
+  - <h4>Example</h4>
   ```javascript
-  let number = 10
-  number.loopStep(1, (items)=>{
-   console.log(items)
+  const number = 10
+  decrementLoop(number, 1, (iterations)=>{
+   console.log(iterations)
   })
   ```
   
 ### decrementStep
-   - #### Syntax
+   - <h4>Syntax</h4>
   ```javascript
-  loopStep(numberTarget, numberStep, callback())
+  decrementStep(number, numberTarget, numberStep, callback)
   ```
-  - #### Example
+  - <h4>Example</h4>
   ```javascript
-  let number = 20
-  number.loopStep(10, 1, (items)=>{
-   console.log(items)
+  const number = 20
+  decrementStep(number, 10, 1, (iterations)=>{
+   console.log(iterations)
   })
   ```
 
