@@ -1,4 +1,4 @@
-const noloopfor = require('./index.js');
+const noloopfor = require('noloopfor');
 
 const number = 10;
 

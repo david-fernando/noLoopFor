@@ -1,6 +1,11 @@
 #depedencies
 /node_modules
 
+#paths
+
+/modules
+/icon
+
 # test files
 test.js
 test.ts

@@ -24,46 +24,59 @@
 ### About
 JavaScript library for making functional loops
 
-### Demonstration
- <img style="width:100%; height: 200px" src="https://images2.imgbox.com/83/3f/xxP0kvaO_o.gif" alt="No loop for demonstration">
+### Get Started
 
-### Instalation
-To install on the node, just execute the command below on the terminal
-```
-npm install noloopfor
-```
-Or if you're off the nodejs, just add the line below in head of your html
-```html
-<script src="https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js"></script>
-```
-### How to use
-If you are on nodejs, just import the library
-```
-const noloopfor = require('noloopfor')
-```
-If you aren't on the node, you don't need make any more. Just use the the available methods!
+  - <h4>On the Node JS</h4>
+  To install on the node, just execute the command below on the terminal
+  ```
+  npm install noloopfor
+  ```
+  To import the the desired function use destructuring assignment, for example, the bellow code is importing the function loop.
+  ```javascript
+  const { loop } = require('noloopfor')
+  ```
+  If using React JS, or some other JS library that allows you to use the ESM syntax, you can use it with destructuring assignment, as in the example below
+  ```javascript
+  import { loop } from 'noloopfor'
+  ```
+ - <h4>On the browser</h4>
+  If you're out of Node JS you don't need to install anything, just import the desired function using ESM syntax, for example, the below code is importing the function loop, and then is implementing the same.
+  
+  ```html
+  <script type="module">
+  import { loop } from 'https://cdn.jsdelivr.net/gh/david-fernando/noForLoop/dist/noforloop.js'
+
+  const number = 10
+
+  loop(number, 20, (iterations)=>{
+   console.log(iterations)
+  })
+
+  </script>
+  ```
+### Reference
 
 ### loop
    - <h4>Syntax</h4>
   ```javascript
-  loop(numberOfIterations, callback())
+  loop(number, numberOfIterations, callback)
   ```
   - <h4>Example</h4>
   ```javascript
-  let number = 10
-  number.loop(20, (iterations)=>{
+  const number = 10
+  loop(number, 20, (iterations)=>{
    console.log(iterations)
   })
   ```
 ### loopStep
    - <h4>Syntax</h4>
   ```javascript
-  loopStep(numberOfIterations, numberStep, callback())
+  loopStep(number, numberOfIterations, numberStep, callback)
   ```
   - <h4>Example</h4>
   ```javascript
-  let number = 10
-  number.loopStep(100, 10, (iterations)=>{
+  const number = 10
+  loopStep(number, 100, 10, (iterations)=>{
    console.log(iterations)
   })
   ```
@@ -72,12 +85,12 @@ If you aren't on the node, you don't need make any more. Just use the the availa
 ### decrementLoop
    - <h4>Syntax</h4>
   ```javascript
-  decrementLoop(numberTarget, callback())
+  decrementLoop(number, numberTarget, callback)
   ```
   - <h4>Example</h4>
   ```javascript
-  let number = 10
-  number.decrementLoop(1, (iterations)=>{
+  const number = 10
+  decrementLoop(number, 1, (iterations)=>{
    console.log(iterations)
   })
   ```
@@ -85,12 +98,12 @@ If you aren't on the node, you don't need make any more. Just use the the availa
 ### decrementStep
    - <h4>Syntax</h4>
   ```javascript
-  decrementStep(numberTarget, numberStep, callback())
+  decrementStep(number, numberTarget, numberStep, callback)
   ```
   - <h4>Example</h4>
   ```javascript
-  let number = 20
-  number.decrementStep(10, 1, (iterations)=>{
+  const number = 20
+  decrementStep(number, 10, 1, (iterations)=>{
    console.log(iterations)
   })
   ```
