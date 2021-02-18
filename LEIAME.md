@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="icon/icon.png" alt="No loop for"></a>
+ <img width=200px height=200px src="https://images2.imgbox.com/23/40/erCGj2jK_o.png" alt="No loop for"></a>
 </p>
 
 <h1 align="center">No loop for</h1>
@@ -16,7 +16,7 @@
 ### Sobre
 Esta é uma biblioteca JavaScript, que permite fazer inumeros loops sem o uso do for
 
-### Começar a usar
+### Comece a usar
 
   - <h4>No Node JS</h4>
   Para instalar no Node, basta executar o comando abaixo no terminal
