@@ -1,0 +1,20 @@
+#depedencies
+/node_modules
+
+#paths
+
+/modules
+/icon
+/test
+
+# test files
+test.js
+test.ts
+
+
+# ts config
+tsconfig.json
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
