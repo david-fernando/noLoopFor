@@ -30,7 +30,7 @@ function decrementStep(value, target, step, callback){
     }
 }
 
-export {
+module.exports = {
     loop,
     loopStep,
     decrementLoop,
