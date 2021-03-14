@@ -56,7 +56,7 @@ JavaScript library for making functional loops
   ```
 
   - <h4>Typscript Support</h4>
-  Noloopfor can now be used with TypeScript, For this just install the TypeScript declarations with one of the commands below
+  Noloopfor can now be used with TypeScript, for this just install the TypeScript declarations with one of the commands below
   ```javascript
   npm install types/noloopfor
 
