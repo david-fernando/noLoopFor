@@ -17,7 +17,7 @@
 
 ### Languages
 <ul style="display:inline; list-style-type:none">
-  <li style="list-style-type:none"><a href="LEIAME.md">Portuguese</li>
+  <li style="list-style-type:none"><a href="https://github.com/david-fernando/noLoopFor/blob/master/LEIAME.md">Portuguese</li>
   <li style="list-style-type:none"><a href="#">English</li>
 </ul>
 
@@ -53,6 +53,17 @@ JavaScript library for making functional loops
   })
 
   </script>
+  ```
+
+  - <h4>Typscript Support</h4>
+  Noloopfor can now be used with TypeScript, For this just install the TypeScript declarations with one of the commands below
+  ```javascript
+  npm install types/noloopfor
+
+  // or
+
+  yarn add types/noloopfor
+
   ```
 ### Reference
 
