@@ -10,7 +10,7 @@
 ### Idiomas
 <ul style="display:inline; list-style-type:none">
   <li style="list-style-type:none"><a href="#">Português</li>
-  <li style="list-style-type:none"><a href="README.md">Inglês</li>
+  <li style="list-style-type:none"><a href="https://github.com/david-fernando/noLoopFor/blob/master/README.md">Inglês</li>
 </ul>
 
 ### Sobre
@@ -45,6 +45,16 @@ Esta é uma biblioteca JavaScript, que permite fazer inumeros loops sem o uso do
   })
 
   </script>
+  ```
+  - <h4>Suporte ao TypeScript</h4>
+  Noloopfor agora pode ser usado com TypeScript, para isso basta instalar as declarações de tipo com um dos comandos abaixo
+  ```javascript
+  npm install types/noloopfor
+
+  // ou
+
+  yarn add types/noloopfor
+
   ```
 
 ### Referência
