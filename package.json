@@ -1,6 +1,6 @@
 {
   "name": "noloopfor",
-  "version": "2.0.5",
+  "version": "2.0.7",
   "description": "Pacote para fazer loops sem o uso de for",
   "main": "index.js",
   "scripts": {
