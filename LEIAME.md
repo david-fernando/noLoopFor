@@ -47,7 +47,7 @@ Esta é uma biblioteca JavaScript, que permite fazer inumeros loops sem o uso do
   </script>
   ```
   - <h4>Com TypeScript</h4>
-  Noloopfor agora pode ser usado com TypeScript, para isso basta instalar as declarações de tipo com um dos comandos abaixo
+  Para usar este módulo com TypeScript basta instalar as declarações de tipo com um dos comandos abaixo
   ```javascript
   npm install @types/noloopfor
 
